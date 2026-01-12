@@ -6,7 +6,7 @@ de la forma "Hola, soy [nombre] y tengo [edad] años"
 package cursojava.holamundo.solucion;
 
 public class Main {
-    void main() {
+    static void main() {
         String nombre = "Diego";
         String edad = "23";
 

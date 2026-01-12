@@ -6,7 +6,7 @@ de la forma "Hola, soy [nombre] y tengo [edad] años"
 package cursojava.holamundo.ejercicio;
 
 public class Main {
-    void main() {
+    static void main() {
         String nombre = "";
 
         System.out.println("#TODO completar el ejercicio");
