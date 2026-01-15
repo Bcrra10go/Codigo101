@@ -16,7 +16,8 @@ Grupo 4: 5, 6, 3, 7, 7.9
     La calificación promedio del grupo es: 5.779999999999999
     Con este promedio el grupo paso: true
 Grupo 5: 7.8, 3.9, 9.1, 6.4, 8.5
-
+    La calificación promedio del grupo es: 7.139999999999999
+    Con este promedio el grupo paso: true
  */
 
 package cursojava.fundamentos.solucion;
