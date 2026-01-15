@@ -1,70 +1,48 @@
-package cursojava.fundamentos.contenido;
+package cursojava.loops.contenido;
 
 public class Main {
-    static void main(){
-        int x = 5;
-        int y = 3;
-        int z = x + y;
+    public static void main() {
+        boolean diaLluvioso = true;
+        boolean diaFrio = true;
 
-        double a = 1.1;
-        double b = 9.9;
+        if (diaLluvioso) {
+            System.out.println("Nos quedamos en casita");
+        } else if (diaFrio) {
+            System.out.println("Salimos con chamarra");
+        } else {
+            System.out.println("Vamos al parque!");
+        }
 
-        char u = '$';
 
-        boolean verdadero = true;
-        boolean falso = false;
+        System.out.println("\nWHILE:");
+        int x = 0;
 
+        while (x < 10) {
+            System.out.println(x);
+            x++;
+        }
 
-        System.out.println("x: " + x);
-        System.out.println("y: " + y);
-        System.out.println("z: " + z);
+        System.out.println("\nDO WHILE:");
+        int y = 100;
+        do {
+            System.out.println(y);
+        } while (y < 10);
 
-        System.out.println();
+        System.out.println("\nFOR");
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
 
-        System.out.println("x + y = " + (x + y));
-        System.out.println("x - y = " + (x - y));
-        System.out.println("x * y = " + (x * y));
-        System.out.println("x / y = " + (x / y));
-        System.out.println("x % y = " + (x % y));
+        System.out.println("\nFOR CON JUMP STATEMENTS");
+        for (int i = 0; i < 10000; i++) {
+            if (i % 2 == 1) {
+                continue;
+            }
 
-        System.out.println();
-
-        System.out.println("b + a = " + (b + a));
-        System.out.println("b / a = " + (b / a));
-
-        System.out.println();
-
-        System.out.println("x + a = " + (x + a));
-
-        System.out.println();
-
-        System.out.println(u);
-
-        System.out.println();
-
-        System.out.println("3 = 3? " + (3 == 3));
-        System.out.println("3 = 5? " + (3 == 5));
-        System.out.println("3 > 3? " + (3 > 3));
-        System.out.println("3 >= 3? " + (3 >= 3));
-        System.out.println("3 < 5? " + (3 < 5));
-        System.out.println("3 != 5? " + (3 != 5));
-
-        System.out.println();
-
-        System.out.println("verdadero: " + verdadero);
-        System.out.println("!(no)verdadero: " + !verdadero);
-        System.out.println("verdadero &&(y) verdadero: " + (verdadero && verdadero));
-        System.out.println("verdadero &&(y) falso: " + (verdadero && falso));
-        System.out.println("verdadero ||(o) falso: " + (verdadero || falso));
-        System.out.println("falso ||(o) falso: " + (falso || falso));
-        System.out.println("verdadero &&(y) !(no)falso" + (verdadero && !falso));
-
-        System.out.println();
-
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println((Integer.MAX_VALUE + 1));
-
-        System.out.println(Integer.MIN_VALUE);
-        System.out.println((Integer.MIN_VALUE - 1));
+            if (i == 10) {
+                break;
+            }
+            System.out.println(i);
+        }
     }
 }

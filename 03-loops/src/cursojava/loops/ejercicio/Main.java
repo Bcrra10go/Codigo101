@@ -1,24 +1,26 @@
 /*
-El objetivo de este ejercicio es crear 5 variables con las calificaciones de 5 estudiantes, calcular el promedio
-del salon y si la calificación promedio es aprobatoria (mayor a 5) o no. Haz el cálculo con los siguientes números y
-decide si el salón pasó el examen:
+Ejercicio 1:
+Usando loops e ifs, imprime los números del 1 al 100. Si número es múltiplo de 3 imprime la palabra "Fizz", si es
+múltiplo de 5, imprime "Buzz" y si es múltiplo de 3 y 5 imprime "FizzBuzz"
 
-Grupo 1: 8, 4, 9, 3, 7
-Grupo 2: 6, 3, 4, 5, 4
-Grupo 3: 5, 6, 3, 7, 8
-Grupo 4: 5, 6, 3, 7, 7.9
-Grupo 5: 7.8, 3.9, 9.1, 6.4, 8.5
+Ejercicio 2:
+Usando solamente loops e ifs, imprime la siguiente figura:
+*          (1 estrella)
+***        (3 estrellas)
+*****      (5 estrellas)
+*******    (7 estrellas)
+*********  (9 estrellas)
+
+Hint: Recuerda que 'println' imprime una expresión por línea mientras que 'print' imprime en la misma línea hasta
+encontrar '\n'
  */
 
-package cursojava.fundamentos.ejercicio;
+package cursojava.loops.ejercicio;
 
 public class Main {
-    static void main(){
-        // Crea tus variables
+    static void main() {
+        //Ejercicio 1
 
-        // Define el promedio y si es aprobatorio
-        System.out.println("La calificación promedio del grupo es: "); // Agrega el promedio a el print
-
-        System.out.println("Con este promedio el grupo paso: "); // Define si paso o no el grupo
+        //Ejercicio 2
     }
 }
