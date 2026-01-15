@@ -23,7 +23,7 @@ Grupo 5: 7.8, 3.9, 9.1, 6.4, 8.5
 package cursojava.fundamentos.solucion;
 
 public class Main {
-    static void main(){
+    public static void main(){
         double estudiante0 = 7.8;
         double estudiante1 = 3.9;
         double estudiante2 = 9.1;

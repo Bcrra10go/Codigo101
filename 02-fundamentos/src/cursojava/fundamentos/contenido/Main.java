@@ -1,7 +1,7 @@
 package cursojava.fundamentos.contenido;
 
 public class Main {
-    static void main(){
+    public static void main(){
         int x = 5;
         int y = 3;
         int z = x + y;

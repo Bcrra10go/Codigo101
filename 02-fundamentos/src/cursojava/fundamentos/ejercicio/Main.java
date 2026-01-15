@@ -13,7 +13,7 @@ Grupo 5: 7.8, 3.9, 9.1, 6.4, 8.5
 package cursojava.fundamentos.ejercicio;
 
 public class Main {
-    static void main(){
+    public static void main(){
         // Crea tus variables
 
         // Define el promedio y si es aprobatorio
