@@ -18,8 +18,8 @@ encontrar '\n'
 package cursojava.loops.solucion;
 
 public class Main {
-    static void main() {
-        //Ejercicio 1
+    public static void main() {
+        // Ejercicio 1
         System.out.println("Ejercicio 1:");
         for (int i = 0; i <= 100; i++) {
             if (i % 15 == 0) {
@@ -33,7 +33,7 @@ public class Main {
             }
         }
 
-        //Ejercicio 2
+        // Ejercicio 2
         System.out.println("\nEjercicio 2:");
         for (int i = 1; i < 10; i++) {
             if (i % 2 == 0) continue;

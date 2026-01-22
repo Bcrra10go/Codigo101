@@ -7,6 +7,8 @@ package cursojava.holamundo.ejercicio;
 
 public class Main {
     public static void main() {
+        // TODO Completar el ejercicio
+
         String nombre = "";
 
         System.out.println("#TODO completar el ejercicio");

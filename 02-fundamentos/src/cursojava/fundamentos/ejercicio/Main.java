@@ -14,9 +14,9 @@ package cursojava.fundamentos.ejercicio;
 
 public class Main {
     public static void main(){
-        // Crea tus variables
+        // TODO Crea tus variables
 
-        // Define el promedio y si es aprobatorio
+        // TODO Define el promedio y si es aprobatorio
         System.out.println("La calificación promedio del grupo es: "); // Agrega el promedio a el print
 
         System.out.println("Con este promedio el grupo paso: "); // Define si paso o no el grupo

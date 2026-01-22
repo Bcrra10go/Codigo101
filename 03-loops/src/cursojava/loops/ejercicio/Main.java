@@ -18,9 +18,9 @@ encontrar '\n'
 package cursojava.loops.ejercicio;
 
 public class Main {
-    static void main() {
-        //Ejercicio 1
+    public static void main() {
+        // TODO Ejercicio 1
 
-        //Ejercicio 2
+        // TODO Ejercicio 2
     }
 }
