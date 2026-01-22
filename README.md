@@ -52,9 +52,9 @@ Condicionales, ciclos `for`, `while` y `do-while`.
 
 Cómo crear, usar y entender métodos y parámetros.
 
-### 5. Arrays
+### 5. Arrays y Strings
 
-Arreglos, índices, recorridos y usos comunes.
+Arreglos, índices, recorridos, usos comunes y strings.
 
 ### 6. Classes
 
