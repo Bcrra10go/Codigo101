@@ -15,7 +15,7 @@ conversiones:
 - 38 °C
 - 39 °F
 
-Hint: °F = (°C x (9/5)) + 32 ||| °C = (°F - 32) x 5/9
+Hint: °F = (°C x (9/5)) + 32 ||| °C = (°F - 32) x 5/9 ||| Utiliza round(x) para redondear los resultados
 
 Ejercicio 3:
 Imprime si un número es par o impar utilizando métodos.
@@ -32,5 +32,9 @@ public class Main {
         // TODO Ejercicio 2
 
         // TODO Ejercicio 3
+    }
+
+    public static double round(double x) {
+        return Math.round(x * 10) / 10.0;
     }
 }
