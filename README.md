@@ -56,21 +56,21 @@ Cómo crear, usar y entender métodos y parámetros.
 
 Arreglos, índices, recorridos, usos comunes y strings.
 
-### 6. Classes
+### 6. Clases
 
 Qué es una clase, atributos, métodos y objetos.
 
-### 7. Contenedores (Generics)
+### 7. Paquetes y Control de Acceso
 
-Uso de genéricos y contenedores comunes.
+Organización de proyectos usando paquetes.
 
 ### 8. Composición de clases
 
 Relación entre clases usando composición.
 
-### 9. Paquetes
+### 9. Contenedores (Generics)
 
-Organización de proyectos usando paquetes.
+Uso de genéricos y contenedores comunes.
 
 ### 10. Herencia y tipos
 
@@ -80,43 +80,39 @@ Extender clases y entender jerarquías.
 
 Diferencias, cuándo usar cada una.
 
-### 12. Control de Acceso
-
-Public, private, protected y default.
-
-### 13. Polimorfismo
+### 12. Polimorfismo
 
 Comportamiento dinámico entre clases relacionadas.
 
-### 14. Pruebas
+### 13. Pruebas
 
 Introducción a pruebas y validación de código.
 
-### 15. Excepciones
+### 14. Excepciones
 
 Manejo de errores con try/catch y throws.
 
-### 16. Debugger
+### 15. Debugger
 
 Cómo encontrar y corregir errores.
 
-### 17. Calidad de código y estilo
+### 16. Calidad de código y estilo
 
 Buenas prácticas y código limpio.
 
-### 18. Scanner y Writer
+### 17. Scanner y Writer
 
 Entrada y salida de datos.
 
-### 19. Hilos
+### 18. Hilos
 
 Programación concurrente básica.
 
-### 20. Expresiones Lambda
+### 19. Expresiones Lambda
 
 Funciones anónimas y sintaxis moderna.
 
-### 21. Filtros y Maps de Streams
+### 20. Filtros y Maps de Streams
 
 Procesamiento de colecciones con streams.
 
